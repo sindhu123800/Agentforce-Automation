@@ -4,6 +4,8 @@
 // Added per request
 // Test class for MemberNameExtractorFromField
 private class MemberNameExtractorFromFieldTest {
+    int a;
+}
 
 // Added per request
 //gdgdgd
