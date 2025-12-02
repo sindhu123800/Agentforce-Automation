@@ -4,6 +4,7 @@
 // Added per request
 // Test class for MemberNameExtractorFromField
 private class MemberNameExtractorFromFieldTest {
+    // Adding comment as requested
     int a;
 }
 
