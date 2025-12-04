@@ -1,0 +1,23 @@
+name: Salesforce CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Salesforce CLI
+        run: npm install sfdx-cli --global
+
+      - name: Authenticate Target Org
+        run: sfdx auth:sfdxurl:store -f ./auth/qa.txt -a QA
+
+      - name: Deploy Metadata to QA
+        run: sfdx force:source:deploy -p force-app -u QA
