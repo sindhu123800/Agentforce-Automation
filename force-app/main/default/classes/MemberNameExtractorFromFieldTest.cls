@@ -5,6 +5,7 @@
 // Added per request
 // Added per request at line 5
 // Added per request at line 7
+// Added comment at line 7 as requested
 // Test class for MemberNameExtractorFromField
 private class MemberNameExtractorFromFieldTest {
     // Adding comment as requested
