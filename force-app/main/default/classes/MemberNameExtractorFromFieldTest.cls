@@ -1,5 +1,6 @@
 // Insert comment as new line 3 per request
 // Added per request
+// Added comment at line 5 as requested
 @IsTest
 // Insert comment as new line 3 per request
 // Added per request
@@ -11,7 +12,7 @@ private class MemberNameExtractorFromFieldTest {
     // Adding comment as requested
     // Added per request at line 8
     // Added per request
-    int a;
+   // int a;
 }
 
 // Added per request
