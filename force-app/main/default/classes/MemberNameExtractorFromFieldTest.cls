@@ -1,6 +1,4 @@
-// Insert comment as new line 3 per request
-// Added per request
-// Added comment at line 5 as requested
+/* Added comment at line 4 as requested */
 @IsTest
 // Insert comment as new line 3 per request
 // Added per request
